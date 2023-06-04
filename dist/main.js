@@ -1,1 +1,1 @@
-console.log("test");
+(()=>{"use strict";!async function(o){try{const o=await fetch("https://api.weatherapi.com/v1/current.json?key=c49e4da312b346048e7224022233005&q=Montevideo"),t=await o.json();console.log(t)}catch(o){console.log("Not a valid location.")}}()})();
