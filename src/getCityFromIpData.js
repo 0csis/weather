@@ -4,7 +4,7 @@ async function getCityFromIpData() {
   try {
     const cityName = await getIpData();
     return cityName.city;
-  } catch (error) {
+  } catch(error) {
     return 'error';
   }
 }
